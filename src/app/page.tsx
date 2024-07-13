@@ -1,4 +1,4 @@
-import classes from './page.module.css';
+import classes from './page.module.scss';
 import Image from 'next/image';
 import mainPhoto from '@/assets/main-photo.webp';
 import { playfair_display, lato } from './fonts';
@@ -15,9 +15,7 @@ export default function Home() {
             quality={100}
             fill
             sizes="100vw"
-            style={{
-              objectFit: 'cover',
-            }}
+            objectFit="cover"
           />
         </div>
         <div className={classes.textContainer}>
