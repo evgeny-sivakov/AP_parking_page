@@ -10,10 +10,12 @@
   background-image: url('../assets/main-photo.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 20vh;
+  background-position: 0;
 
   @media (max-width: 764px) {
     background-size: contain;
+    background-position: 0 20vh;
+
   }
 }
 
