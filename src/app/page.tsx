@@ -6,18 +6,7 @@ import { playfair_display, lato } from './fonts';
 export default function Home() {
   return (
     <main>
-      <div>
-        <div className={classes.bgWrap}>
-          <Image
-            alt="Ales Pushkin"
-            src={mainPhoto}
-            placeholder="blur"
-            quality={100}
-            fill
-            sizes="100vw"
-            objectFit="cover"
-          />
-        </div>
+      <div className={classes.background}>
         <div className={classes.textContainer}>
           <p className={playfair_display.className}>Алесь Пушкін (1965—2023)</p>
           <a href="mailto:alespushkin@proton.me" className={lato.className}>
