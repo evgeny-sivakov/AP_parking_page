@@ -10,7 +10,7 @@
   background-image: url('../assets/main-photo.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0;
+  background-position: 20px -70px;
   background-color: black;
   z-index: -1;
 
@@ -22,7 +22,7 @@
 
   @media (max-width: 764px) {
     background-image: url('../assets/main-photo__mobile.webp');
-    background-position: -20px 20px;
+    background-position: 5px 20px;
     background-size: cover;
   }
 }
@@ -45,6 +45,7 @@
 }
 
 .textContainer p {
+  color: white;
   z-index: 10;
 }
 
