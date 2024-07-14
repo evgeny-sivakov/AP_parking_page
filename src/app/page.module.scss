@@ -12,10 +12,18 @@
   background-repeat: no-repeat;
   background-position: 0;
   background-color: black;
+  z-index: -1;
+
+  @media (max-width: 1024px) {
+    background-image: url('../assets/main-photo__mobile.webp');
+    background-position: 20px 0px;
+    background-size: cover;
+  }
 
   @media (max-width: 764px) {
     background-image: url('../assets/main-photo__mobile.webp');
-    background-size: contain;
+    background-position: -65px 20px;
+    background-size: cover;
   }
 }
 
@@ -33,10 +41,6 @@
     font-size: 22px;
     text-align: center;
   }
-}
-
-.textContainer p {
-  z-index: 10;
 }
 
 .textContainer a {
