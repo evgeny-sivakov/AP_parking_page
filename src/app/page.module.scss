@@ -35,6 +35,10 @@
   }
 }
 
+.textContainer p {
+  z-index: 10;
+}
+
 .textContainer a {
   font-size: 22px;
   color: rgb(143, 143, 143);
