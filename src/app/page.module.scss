@@ -1,6 +1,6 @@
 .bgWrap {
   position: fixed;
-  height: 100vh;
+  height: 100svh;
   width: 100vw;
   overflow: hidden;
   z-index: -1;
@@ -22,13 +22,13 @@
 
   @media (max-width: 764px) {
     background-image: url('../assets/main-photo__mobile.webp');
-    background-position: -65px 20px;
+    background-position: -20px 20px;
     background-size: cover;
   }
 }
 
 .textContainer {
-  height: 100vh;
+  height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -36,11 +36,16 @@
   align-items: center;
   padding: 110px;
   font-size: 32px;
+  z-index: 10;
 
   @media (max-width: 764px) {
     font-size: 22px;
     text-align: center;
   }
+}
+
+.textContainer p {
+  z-index: 10;
 }
 
 .textContainer a {
