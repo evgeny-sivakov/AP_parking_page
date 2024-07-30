@@ -8,7 +8,8 @@ export default function Home() {
     <main>
       <div className={classes.background}>
         <div className={classes.textContainer}>
-          <p className={playfair_display.className}>Алесь Пушкін (1965—2023)</p>
+          <p className={playfair_display.className}>Алесь Пушкін</p>
+          <p>(1965—2023)</p>
           <a href="mailto:alespushkin@proton.me" className={lato.className}>
             alespushkin@proton.me
           </a>
